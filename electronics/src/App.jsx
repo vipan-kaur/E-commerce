@@ -9,7 +9,8 @@ import  Contact from './pages.jsx/contact'
 import Footer from './layout.jsx/footer'
 import SearchProvider from './searchprovider'
 import Login from './pages.jsx/login'
-import About from './pages.jsx/about'
+import Aboutpage from './pages.jsx/about/aboutpage.jsx'
+import Use from './pages.jsx/usememo.jsx'
 const App = () => {
   return (
     <>
@@ -24,7 +25,8 @@ const App = () => {
         <Route path='/mycart' element={<Cart/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/login' element={<Login/>}/>
-        <Route path='/about' element={<About/>}/>
+        <Route path='/aboutpage' element={<Aboutpage/>}/>
+        <Route path="/uses" element={<Use/>}/>
         </Routes>
         <Footer/>
    </BrowserRouter>

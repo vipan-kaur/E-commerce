@@ -1,5 +1,6 @@
 import React from 'react'
 import homevideo from "../assets/homevideo.mp4"
+import Homeabout from './linktoabout'
 const Home = () => {
   return (
     <>
@@ -21,6 +22,7 @@ const Home = () => {
 
         </div>
       </div>
+      <Homeabout/>
     </>
   )
 }

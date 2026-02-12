@@ -8,7 +8,7 @@ const Navbar = () => {
      <div className='flex items-center w-full h-full'>
               <div  className=' flex items-center  ml-5 h-full w-1/3'>
                   <ul className=' hidden md:flex gap-10 '>
-                        <Link to="/about">  <li>About</li></Link>
+                        <Link to="/aboutpage">  <li>About</li></Link>
                         <Link to="/products"><li>Shop</li></Link>
                         {/* console */}
                         <Link to="/contact"> <li>Contact</li></Link>
