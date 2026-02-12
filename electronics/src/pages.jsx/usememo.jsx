@@ -7,6 +7,7 @@ const Use=()=>{
     // function multiply(){
     //     console.log("*********************")
     //   return  plus*10
+    console.log("helo")
       
     // }
     const multiply=useMemo(()=>{
